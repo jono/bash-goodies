@@ -1,0 +1,5 @@
+#!/bin/sh
+
+IP=$(ipconfig getifaddr en0)
+echo "Address copied to clipboard"
+echo $IP | pbcopy
